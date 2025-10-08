@@ -1,7 +1,7 @@
 # 1 - Receber nome e nota de 10 alunos
 alunos = []
 
-for i in range(3):
+for i in range(10):
     nome = input(f"Digite o nome do {i+1}º aluno: ")
     nota = float(input(f"Digite a nota de {nome}: "))
     alunos.append((nome, nota))
